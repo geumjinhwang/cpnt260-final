@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register to PinkBong</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero-section">
+    <nav>
+    <div class="home">
+      <a id="top" href="home.html"><img class="logo" src="img/pinkbong.png"></a>
+    </div>
+      <ul>
+        <li class="bar"><a class="nav-bar" href="gallery.html">Gallery</a></li>
+        <li class="bar"><a class="nav-bar" href="contact.html">Contact Us</a></li>
+        <li class="bar"><a class="nav-bar" href="login.html">Login</a></li>
+        <li class="bar"><a class="register" href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  <div class="hero-text">  
+    <h1>Sign up</h1>
+    <div class="signup">
+      <form action="#">
+        <fieldset>
+          <legend>New to PinkBong</legend>
+          <div>
+          <label class="email"></label>
+          <input type="email" required placeholder="Email" name="email" id="email">
+         </div>
+         <div>
+          <label class="password"></label>
+          <input type="password" required placeholder="Password" name="password" id="password">
+        </div>
+        <div>
+          <label class="password"></label>
+          <input type="password" required placeholder="Confirm Password" minlength="10" pattern=".{10,}" name="password" id="password">
+        </div>
+          <button type="submit">Register</button>
+        </fieldset>
+      </form>
+    </div>
+    <a href="#top"><img class="bottom" src="img/pinkbong.png" alt="Pink bong logo"></a>
+  </div>
+  </div>
+    <footer>Copyright &copy; 2020 - Jina Hwang</footer>
+</html>
